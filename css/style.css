@@ -1,0 +1,172 @@
+*{margin:0;padding:0;}
+body{color:#212529;}
+ul{list-style: none}
+a{text-decoration: none;}
+.pic{display:none;position: fixed;top:92%;left:95%;width: 30px;height:30px;z-index: 999;}
+/*首页*/
+/*头部*/
+/*头部导航*/
+.header{width: 100%;background: url("../images/bg.jpg") no-repeat 0px 0px;background-position: center; background-size: cover;position: relative}
+#navigation{width: 100%;background-color: rgba(255,255,255,0.73);padding: 0.5em 1em;border: 0;z-index: 9}
+.navbar-toggle{background-color:rgba(255,255,255,0);margin-top: 20px }
+.navbar-header h3{font-family: 'GreatVibes-Regular', cursive; font-size: 3em; text-shadow: 2px 2px 5px rgba(66, 60, 63, 0.88);  color: #352a1c;}
+#navigation nav ul li a{font-size: 15px; line-height: 15px;margin-top:20px;text-align: center;color:#656565;text-shadow: 1px 1px 2px #929292;}
+#navigation nav>ul>li {margin-left: 3em}
+#navigation nav .current a{color: #000000}
+/*#navigation nav {white-space:nowrap;}*/
+.form-inline{margin:20px auto;text-align: center }
+.form-inline input{outline: none;display:inline-block;padding: 9px 15px;font-size: 15px;color: #000;background: rgba(255, 255, 255, 0);width:64%;letter-spacing: 2px;border: 0; border-bottom: 2px solid rgba(148, 152, 152, 0.23);margin: 0;  border-radius: 0;  box-sizing: border-box; }
+.form-inline button{padding: 10px 24px; font-size: 15px; color: #fff; background: #9abcd8; letter-spacing: 1px;font-weight: 600;border-radius: 0px 15px 0px 15px;-moz-transition: 0.5s all;-webkit-transition: all 0.5s;-o-transition: all 0.5s;-ms-transition: all 0.5s;transition: all 0.5s}
+.form-inline button:hover{background-color: #6896c8;}
+.dropdown-menu li{color: #656565;text-shadow: 1px 1px 2px #929292;}
+
+/*头部轮播条部分*/
+.bar{position:absolute;top:86%;right: 5%;}
+.bar button{padding: 10px 30px; font-size: 18px; background: #3d3133; letter-spacing: 1px;font-weight: normal;border-radius: 0px 15px 0px 15px;-moz-transition: 0.5s all;-webkit-transition: all 0.5s;-o-transition: all 0.5s;-ms-transition: all 0.5s;transition: all 0.5s}
+.bar button a{color: #fff}
+.bar button a:hover{text-decoration: none;}
+.bar button:hover{background:#d9dade;}
+.bar ul li{width:50px;height: 4px;background-color: white;margin-top: 10px;float: left;margin-left: 2px}
+.bar ul .now{background-color:#9abcd8 }
+
+/*container：关于我们部分*/
+.container.about{width:90%;height:100%;margin-top: 30px}
+.container.about h1{text-align: left;color: #000;font-family: 'Great Vibes', cursive;font-weight: 500;}
+.container.about .top h2{color: #9abcd8;font-size: 26px;letter-spacing: 1px;margin-bottom: 0.5em;font-weight: 500;}
+.container.about .top p{color: #777;letter-spacing: .6px;line-height: 33px;}
+.container.about .bottom .media img{background-size: cover;min-height: 300px;}
+.container.about .bottom .media ul .list-group-item.active {background: #ea6a9f; border: none;font-size: 17px;font-weight: 400; padding: 0.3em 1em;  }
+.container.about .bottom .media h1{color: #00b6e3;font-size: 26px;letter-spacing: 1px;margin-bottom: 0.5em;font-weight: 500;}
+.about-img {margin-top:10px;background: url(../images/about.jpg)no-repeat 0px 0px;background-size: cover; min-height: 400px;}
+.container.about .bottom .media .about_bottom{background-color: #9abcd8;min-height:100px;padding: 20px 20px;}
+.container.about .bottom .media .about_bottom p{letter-spacing: .6px;line-height: 33px;color: white;font-size:1.5rem }
+
+/*数字部分*/
+.container.number{text-align: center;width: 100%;min-height: 300px;margin-top:30px;background: url("../images/stats.jpg") no-repeat 0px 0px;background-position: center;background-size: cover;}
+.container.number h1{text-align: center;font-size: 3.7em;font-family: "Courier New";color: white;font-weight: 300;}
+.container.number .counter{font-weight: 300;letter-spacing: 3px;color: #00b6e3;}
+.container.number h3{color: #fff;font-weight: normal}
+.row.stats_inner {margin-top: 5%}
+
+/*轮播图部分*/
+.carousel.slide{min-height:500px;background-color: #eeeeee;width: 100%;padding: 30px 20px}
+.carousel.slide .carousel-inner img{border: 5px solid rgb(189, 189, 189);width: 200px}
+.carousel.slide>h1{font-size: 2em;font-family: "Courier New";line-height: 50px}
+.carousel.slide .carousel-inner .item h1{font-size: 2em;color: black;font-family: "Great Vibes"}
+.carousel.slide .carousel-inner .item i{font-size: 1em;letter-spacing: 1px;color: #00b6e3;font-style: italic; }
+.carousel.slide .carousel-inner .item span{color: rgba(234, 76, 137, 0.63);}
+.carousel.slide .carousel-inner .item P{color: #777;letter-spacing: .6px;line-height:30px;}
+
+/*尾部*/
+.footer{position:relative;background: url("../images/img_bg_4.jpg") no-repeat 0px 0px;background-position: center;width: 100%;min-height:300px }
+.footer .inner{width: 100%;height:100%;background: rgba(0, 0, 0, 0.4);position: absolute;top: 0;left: 0;}
+.footer .main{padding: 50px 30px;text-align: center;width: 100%;height: 100%}
+.footer .main .title h2{font-size: 40px;line-height: 1.5;font-weight: bold;color: #fff;}
+.footer .main .title p{margin-bottom: 20px;font-size: 20px;line-height: 1.5;color: rgba(255, 255, 255, 0.5);}
+.footer .main .form-group{margin-bottom: 10px;width: 100%;}
+.footer .main .form-group .form-control{background: rgba(255, 255, 255, 0.2);border: none;color: #fff;width: 100%;height: 54px;border-radius: 4px}
+.footer .main button{height: 54px;border: none ;background: #F14E95;color: #fff;font-size: 16px;text-transform: uppercase;font-weight: 400;padding-left: 50px;padding-right: 50px;}
+
+/*故事页*/
+/*头部*/
+.header_story{width: 100%;height: 420px;background: url("../images/bg.jpg") no-repeat 0px 0px;background-position: center; background-size: cover;position: relative}
+.header_story .bottom{position: absolute;top:420px;left:0;background-color: #e9ecef;width: 100%;height: 15%;padding: 18px;}
+.header_story .bottom a{color: #6c757d;font-size: 18px;text-decoration: none;}
+.header_story .bottom .cur{color: #00b6e3;font-size: 18px;}
+
+/*主体内容*/
+.content{padding: 8em 2em;width: 100%;min-height: 800px}
+.content .media{padding: 1.5em;border: 3px solid #ececec;border-radius: 105px 0px;margin-top: 50px}
+.content .media:nth-child(2){border: 0}
+.content .media .first_pic{border-radius: 105px 0px;margin-top:10px;background: url(../images/s1.jpg)no-repeat 0px 0px;background-position:center;background-size: cover; min-height: 400px;}
+.content .media .second_pic{border-radius: 0px 105px;margin-top:10px;background: url(../images/s2.jpg)no-repeat 0px 0px;background-position:center;background-size: cover; min-height: 400px;}
+.content .media .third_pic{border-radius: 0px 105px;margin-top:10px;background: url(../images/s3.jpg)no-repeat 0px 0px;background-position:center;background-size: cover; min-height: 400px;}
+.content .media h1{font-size:2em;color: #352a1c;letter-spacing: 1px;line-height:2;font-weight: 400;margin-bottom: 5px;text-shadow: 2px 2px 13px #823611;padding-left: 0.1em;}
+.content .media span{display: block;color: #ea6a9f;font-size: 1em;letter-spacing: 0.5px;text-shadow: 1px 2px 8px #ef90b8;  margin-bottom: 0.6em;}
+.content .media h2{color: #00b6e3;letter-spacing: 1px;font-weight: 500;}
+.content .media p{font-size: 15px;color: #777;letter-spacing: .6px;line-height: 33px;}
+
+/*故事展览部分*/
+.story_show{width: 100%;padding: 0 2em;text-align: center;margin-top: -40px;}
+.story_show h1{font-family: monospace, monospace;color:#ea6a9f }
+.story_show p{color:#777777;line-height:20px;margin-bottom: 30px}
+.story_show .story_content ul li{min-height: 400px;margin-left: 15px;margin-bottom:20px;float: left;border-radius: 10px;position: relative}
+.story_show .story_content ul li:nth-child(4){background: url("../images/gallery-4.jpg") no-repeat 0px 0px;background-size: cover;background-position: center}
+.story_show .story_content ul li:nth-child(5){background: url("../images/gallery-5.jpg") no-repeat 0px 0px;background-size: cover;background-position: center}
+.story_show .story_content ul li:nth-child(6){background: url("../images/gallery-6.jpg") no-repeat 0px 0px;background-size: cover;background-position: center}
+.story_show .story_content ul li:nth-child(1){background: url("../images/gallery-1.jpg") no-repeat 0px 0px;background-size: cover;background-position: center}
+.story_show .story_content ul li:nth-child(2){background: url("../images/gallery-2.jpg") no-repeat 0px 0px;background-size: cover;background-position: center}
+.story_show .story_content ul li:nth-child(3){background: url("../images/gallery-3.jpg") no-repeat 0px 0px;background-size: cover;background-position: center}
+.story_show .story_content ul li .panel{width:100%;height:100%;position: absolute;left: 0;top:0;background-color: rgba(0,0,0,0.2)}
+.story_show .story_content ul li .text{position:absolute;bottom: 1em;left: 1em;}
+.story_show .story_content ul li .panel .text span{letter-spacing: 2px;font-size: 13px;color: rgba(255, 255, 255, 0.7);}
+.story_show .story_content ul li .panel .text h4{color: #fff;font-size: 1.5em}
+.story_show .story_content ul li .panel:hover{background-color: rgba(0,0,0,0.5);-moz-transition: all 0.5s;-webkit-transition: all 0.5s;-o-transition: all 0.5s;-ms-transition: all 0.5s;transition: all 0.5s}
+
+/*联系我们页面*/
+    /*联系我们部分*/
+.contact{width: 100%;margin-top: 6em;padding:1em 3em;}
+.contact h1{text-align: left;margin-bottom: 30px;font-size: 3.8em;color: #000;font-family:"Courier New";font-weight: 500;font-style: italic}
+.contact .media h2{color: #00b6e3;font-size: 26px;letter-spacing: 1px;font-weight: 500;}
+.contact .media p{font-size: 16px;color: #777;line-height: 33px;margin-top: 30px}
+.contact .media p .name{font-weight: 600;color: #ea6a9f;}
+.contact .media p .email{color: #00b6e3;}
+.contact .media .time{padding-right: 1em;color: #000;font-size: 17px;line-height: 33px;}
+.contact .media .num{color: #9d9d9d;font-size: 17px;}
+.contact .media .photo{width: 100%;height: 100px;margin: 40px 0px}
+.contact .media .photo ul li{width:33%;height: 100px;float:left;}
+.contact .media .photo ul li:nth-child(1){background: url("../images/s1.jpg") no-repeat 0px 0px;background-position: center;background-size: cover}
+.contact .media .photo ul li:nth-child(2){background: url("../images/bride.jpg") no-repeat 0px 0px;background-position: center;background-size: cover}
+.contact .media .photo ul li:nth-child(3){background: url("../images/s3.jpg") no-repeat 0px 0px;background-position: center;background-size: cover}
+.contact .media .first .form-control{padding: 20px;font-size: 15px;color: #212121;width: 100%;letter-spacing: 1px;border: none;background: rgba(171, 171, 171, 0.15);border-left: 3px solid #00b6e3;box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.12);  }
+.contact .media .first label{font-weight: normal;line-height: 33px}
+.contact .media .first{margin-top: 20px}
+.contact .media .first:last-child input{height: 9em}
+.contact .media button{padding: 12px 0;color: #fff;background: #ea6a9f;border: none;box-shadow: -7px 7px 10px rgba(0, 0, 0, 0.12);margin-top: 10px}
+
+    /*服务部分*/
+.service{width: 100%;height: 750px;margin-top:-60px;margin-bottom:40px;padding:50px;background: url("../images/t_1.jpg") no-repeat 0px 0px;background-position: center;background-size: cover}
+.service h1{text-align: center;font-size: 80px;color: #fff;letter-spacing: 5px;margin-bottom: 30px}
+.service .box{width: 90%;height: 500px;margin: 0px auto}
+.service .box .box_one{margin-left:20px;margin-top: 20px;background: rgba(0, 0, 0, 0.7);float: left;padding:5% 20px;color:#fff;text-align: center;}
+.service .box .box_one:hover{background-color: rgba(230, 0, 79, 0.9);-moz-transition: all 1s;-webkit-transition: all 1s;-o-transition: all 1s;-ms-transition: all 1s;transition: all 1s}
+
+/*关于我们页面*/
+.about{width:100%;padding: 40px 50px;margin-top: 60px}
+.about h1,.photographer h1{text-align: center;font-size: 50px;letter-spacing: 10px;color: #000000}
+.about .media{padding:30px 0px}
+.about .media img{width:100%;height:100%;}
+.about .media p{font-size: 16px;line-height: 30px}
+.about .media h2{color: rgba(230, 0, 79, 0.9);margin-bottom: 30px}
+.about .media .box_bar{margin-top: 20px;}
+.about .media .box_bar h5{color: #000;margin-bottom: 0.5em;font-weight: bold;letter-spacing: 2px;font-size: 18px}
+.about .media .box_bar h5 span{float: right}
+.about .media .box_bar div{margin: 5px 0px}
+.about .media .box_bar .wedding{width: 100%;height: 8px;background-color: rgb(234,64,229);box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);}
+.about .media .box_bar .staff{width: 100%;height: 8px;border:1px solid #eeeeee;position: relative}
+.about .media .box_bar .staff .inner_bar{width: 85%;height: 8px;margin-top:-1px;background-color: rgb(234,64,229);position: absolute;top:0;left:0;}
+.about .media .box_bar .staff .inner_date{width: 67%;height: 8px;margin-top:-1px;background-color: rgb(234,64,229);position: absolute;top:0;left:0;}
+
+/*摄影师部分*/
+.photographer{width: 100%;min-height: 400px}
+.photographer .photo_box{width: 90%;margin: 30px auto;padding: 0px 50px;text-align: center;}
+.photographer .photo_box>div{padding: 20px 10px;}
+.photographer .photo_box .image{overflow: hidden}
+.photographer .photo_box img{height:100%;width: 100%}
+.photographer .photo_box img:hover{transform: scale(1.1);-moz-transition: all 1s;-webkit-transition: all 1s;-o-transition: all 1s;-ms-transition: all 1s;transition: all 1s}
+.photographer .photo_box h6{color: brown;line-height: 20px}
+
+/*响应式设置，当屏幕宽度发生变化时，高度的变化*/
+@media all and (max-width:2000px) {.header {height: 660px;} .container .bottom .media .about_bottom p{font-size: 1.5rem}  .container.number .counter{font-size: 3.5em} .container.number h3{font-size: 3em} .content .media .left{padding-left: 5em;}  .story_show .story_content ul li{width: 32%} .story_content{height: 900px;} .contact{height: 800px;}  .service .box .box_one{width: 48%;height: 220px} .about{height:800px;} .photographer{height: 550px} }
+@media all and (max-width:1280px) {.header {height: 550px;} .container .bottom .media .about_bottom p{font-size: 1.1rem}  .container.number .counter{font-size: 3.0em} .container.number h3{font-size: 2.5em} .content .media .left{padding-left: 2em;}  .story_show .story_content ul li{width: 48%} .story_content{height: 1300px;} .contact{height: 800px;}  .service .box .box_one{width: 45%;height: 220px} .about{height:700px;} .photographer{height: 400px}}
+@media all and (max-width:1100px){.contact{height: 800px} .about{height:700px;} .photographer{height: 400px} .story_content{height: 1300px;} }
+@media all and (max-width: 1010px){.contact{height: 800px;} .about{height:800px;} .story_content{height: 1300px;} }
+@media all and (max-width: 1000px){.contact{height: 1200px;}  }
+@media all and (max-width: 990px){.photographer{height: 400px} }
+@media all and (max-width: 991px){.photographer{height: 900px}}
+@media all and (max-width: 900px){.story_show .story_content ul li{width: 45%} .story_content{height: 1300px;} .contact{height: 1150px;}  .service .box .box_one{width: 45%;height: 220px} .about{height:800px;} .photographer{height: 850px}}
+@media all and (max-width:800px){.contact{height: 1200px} .photographer{height: 800px} .about{height: 1500px} }
+@media all and (max-width: 750px){.story_show .story_content ul li{width: 45%} .story_content{height: 1300px;}  .contact{height: 1400px;} .service .box .box_one{width: 45%;height: 220px} .about{height:1500px;}}
+@media all and (max-width:660px) {.header {min-height: 480px;} .container .bottom .media .about_bottom p{font-size: 0.8rem}  .container.number .counter{font-size: 2.5em} .container.number h3{font-size: 2.0em} .content .media .left{padding-left: 1em;}  .story_show .story_content ul li{width: 45%} .story_content{height: 1300px;} .contact h1{display: none}  .contact{height: 1300px;} .service .box .box_one{width: 45%;height: 220px} .about{height:1400px;} .photographer{height: 700px}}
+@media all and (max-width:600px){.contact{height: 1350px} .service .box .box_one{width: 43%;height: 220px} .about{height:1400px;}}
+@media all and (max-width:500px) {.header {min-height: 450px;} .container .bottom .media .about_bottom p{font-size: 0.5rem}  .container.number .counter{font-size: 2.0em} .container.number h3{font-size: 1.5em} .content .media .left{padding-left: 1em;}  .story_show .story_content ul li{width: 45%} .story_content{height: 1300px;} .contact h1{display: none} .contact{height: 1350px;}  .service .box .box_one{width: 100%;height: 120px} .about{height:1300px;} .photographer{height: 600px}}

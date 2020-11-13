@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/style.js"></script>
+</head>
+<body>
+<!--头部-->
+<!--pic小箭头-->
+<div class="pic"><img src="images/arr.png"></div>
+<!--header包括导航条部分-->
+<div class="header_story">
+    <!--导航条部分-->
+    <div id="navigation" class="navbar navbar-default" role="navigation">
+        <!--屏幕缩小后的按钮-->
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-list"  >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <h3>我们结婚吧</h3>
+        </div>
+        <!--data-target与id对应-->
+        <nav class="collapse navbar-collapse" id="navbar-list">
+            <ul  class="nav navbar-nav">
+                <li ><a href="Home.html" >首页</a></li>
+                <li><a href="About.html" >关于我们</a></li>
+                <li><a href="#">相片集</a></li>
+                <li class="dropdown"><a href="Story.html" class="dropdown-toggle" data-toggle="dropdown">故事<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="Story.html">故事</a></li>
+                        <li><a href="#">类型</a></li>
+                    </ul></li>
+                <li class="current"><a href="Contact.html">联系</a></li>
+            </ul>
+            <!--右侧搜索部分-->
+            <form action="#" class="form-inline search ">
+                <input class="form-control " type="search" placeholder="请输入搜索内容..." name="Search">
+                <button class="btn btn-outline-success " type="submit">搜索</button>
+            </form>
+        </nav>
+    </div>
+    <div class="bottom">
+        <a href="Home.html" class="cur">首页</a>&nbsp;&nbsp;/&nbsp;&nbsp;
+        <a href="Story.html">联系我们</a>
+    </div>
+</div>
+<!--contact里面包含的是填写信息部分-->
+<div class="contact">
+    <h1>Please contact us</h1>
+    <div class="media">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <h2>我们结婚吧</h2>
+            <P>欢迎您来我们结婚吧官网 <span class="name">Welcome To Our Marry Off.</span>
+            在这里您可以尽情享受快乐的时光。有问题随时联系我们哦  <span class="email">info@example.com.</span>您的满意是我们服务的宗旨，
+                期待与您的合作哦</P>
+            <div class="photo">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <h2>服务时间</h2>
+            <span class="time">星期一--星期五</span><span class="num">9:00am - 10:00pm</span><br/>
+            <span class="time">星期六--星期日</span><span class="num">9:00am - 12:00pm</span>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <h2>发送电子邮件</h2>
+            <form action="#">
+                <div class="first col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <label>Name</label>
+                    <input type="name" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="first col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <label>Phone</label>
+                    <input type="name" class="form-control" id="Phone" placeholder="Phone">
+                </div>
+                <div class="first col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <label>Email</label>
+                    <input type="name" class="form-control" id="Email" placeholder="Email">
+                </div>
+                <div class="first col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <label>Subject</label>
+                    <input type="name" class="form-control" id="Subject" placeholder="Subject">
+                </div>
+                <div class="first col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label>Subject</label>
+                    <input type="name" class="form-control" id="Message" placeholder="Message...">
+                </div>
+            </form>
+            <div class="first col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <button type="submit" class="btn btn-default btn-block" placeholder="SUBMIT">SUBMIT</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--服务部分存储的是四个ul，服务的宗旨部分-->
+<div class="service">
+    <h1>SERVICE</h1>
+    <div class="box">
+        <div class="box_one">
+            <h3>BEST QUALITY</h3>
+            <P>delectus reiciendis maiores alias consequatur aut.maiores alias consequatur aut.</P>
+        </div>
+        <div class="box_one">
+            <h3>Best Themes</h3>
+            <p>delectus reiciendis maiores alias consequatur aut.maiores alias consequatur aut.</p>
+        </div>
+        <div class="box_one">
+            <h3>Rocking Music</h3>
+            <p>delectus reiciendis maiores alias consequatur aut.maiores alias consequatur aut.</p>
+        </div>
+        <div class="box_one">
+            <h3>New Collection</h3>
+            <p>delectus reiciendis maiores alias consequatur aut.maiores alias consequatur aut.</p>
+        </div>
+    </div>
+</div>
+<!--尾部-->
+<div class="footer">
+    <!--inner是个蒙版，黑色半透明的-->
+    <div class="inner"></div>
+    <div class="main">
+        <div class="title col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h2>Are You Interesting?</h2>
+            <p>Please Fill-up the form to notify you that you're interesting. Thanks.</p>
+        </div>
+        <div class="row animate-box">
+            <div class="col-md-10 col-md-offset-1">
+                <form class="form-inline">
+                    <div class="col-md-4 col-sm-4">
+                        <div class="form-group">
+                            <input type="name" class="form-control" id="name" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <button type="submit" class="btn btn-default btn-block">我想了解</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
